@@ -121,7 +121,7 @@ print forest_sentiment
 
 
 # Read the test data
-test = pd.read_csv("larger_review_set.csv", header=0)
+test = pd.read_csv("unlabeled_review_set.csv", header=0)
 
 # Verify that there are 25,000 rows and 2 columns
 print test.shape
