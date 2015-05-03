@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import *
 
 
-train = pd.read_csv("review_train_2.csv",header=0)
+train = pd.read_csv("review_training_set.csv",header=0)
 print train.shape
 
 def review_to_words( raw_review ):
@@ -121,7 +121,7 @@ print forest_sentiment
 
 
 # Read the test data
-test = pd.read_csv("review.csv", header=0)
+test = pd.read_csv("larger_review_set.csv", header=0)
 
 # Verify that there are 25,000 rows and 2 columns
 print test.shape
