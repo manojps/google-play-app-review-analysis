@@ -1,6 +1,4 @@
-# google-play-app-review-analysis
-
-Topic detection and sentiment analysis of Google Play app reviews
+# Topic detection and sentiment analysis of Google Play app reviews
 
 This project has three parts -
 1. Crawling Google Play to scrap app reviews
