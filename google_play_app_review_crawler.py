@@ -2,7 +2,7 @@ from lxml import html
 import requests
 import psycopg2
 
-app = open('action_game_list.txt','r')
+app = open('app_id_list.txt','r')
 app_link = app.readlines()
 total_apps = app_link.__len__()
 
